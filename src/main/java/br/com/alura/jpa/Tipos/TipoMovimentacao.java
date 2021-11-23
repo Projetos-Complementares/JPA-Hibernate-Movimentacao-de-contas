@@ -1,5 +1,6 @@
-package br.com.alura.jpa.modelo;
+package br.com.alura.jpa.Tipos;
 
 public enum TipoMovimentacao {
-	ENTRADA, SAIDA;
+	ENTRADA,
+	SAIDA
 }
