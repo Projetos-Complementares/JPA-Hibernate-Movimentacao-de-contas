@@ -7,12 +7,10 @@ import javax.persistence.*;
 @Entity
 @Table(name = "categorias")
 @Data
-@NoArgsConstructor
 public class Categoria {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
 	@NonNull
 	private String nome;
 }
